@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:icon="@drawable/dash"
+            android:id="@+id/nv_dash"
+            android:title="Dashboard"/>
+        <item
+            android:id="@+id/nv_report"
+            android:icon="@drawable/report"
+            android:title="Medical Report"/>
+        <item
+            android:id="@+id/nv_hospital"
+            android:icon="@drawable/hospital"
+            android:title="Hospital Behind Me"/>
+        <item
+            android:id="@+id/appoint"
+            android:icon="@drawable/appoint"
+            android:title="Appointment"/>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/chatbot"
+            android:title="Chatbot" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/logIn"
+            android:icon="@drawable/login"
+            android:title="Login"/>
+
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/support"
+                android:title="Supprot" />
+
+        </menu>
+    </item>
+
+</menu>
